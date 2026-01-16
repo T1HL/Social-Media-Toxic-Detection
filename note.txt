@@ -1,0 +1,18 @@
+// tạo next app (Chọn Yes)
+
+npx create-next-app@latest social-ai-app
+
+// tải npm supabase
+
+npm install @supabase/supabase-js lucide-react date-fns
+
+// tạo file .env.local ở thư mục gốc
+
+NEXT_PUBLIC_SUPABASE_URL=https://xfhytqwpykaxrjkgaqeg.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhmaHl0cXdweWtheHJqa2dhcWVnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc4NzM4NTEsImV4cCI6MjA4MzQ0OTg1MX0.xDcMzwW9oCTEZ_VEgBekOta_YZXf9KUeUbrBgMHKxn0
+
+// Tạo theo đường dẫn ở lib/supabaseClient.js
+
+// tạo page.js trong thư mục app và xóa file page.tsx
+
+// chạy local -> npm run dev
